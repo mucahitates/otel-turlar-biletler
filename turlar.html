@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kültür Turları | Tatil Dünyası</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">TATİL<span>DÜNYASI</span></div>
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="otel.html">Oteller</a></li>
+                <li><a href="kultur.html">Turlar</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="tour-hero">
+        <div class="hero-content">
+            <h1>Anadolu'yu Keşfedin</h1>
+            <p>Tarih ve doğa ile iç içe, unutulmaz kültür turları.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="tour-categories">
+            <div class="category-item active" data-category="all">Tümü</div>
+            <div class="category-item" data-category="doga">Doğa & Yayla</div>
+            <div class="category-item" data-category="tarih">Tarih & Müze</div>
+            <div class="category-item" data-category="kis">Kış & Kayak</div>
+            <div class="category-item" data-category="macera">Macera & Safari</div>
+        </section>
+
+        <h2 class="section-title" id="mainTitle">Tüm Turlar</h2>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="tourGrid">
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Karadeniz Yaylaları</h3>
+                        <p class="tour-desc">Rize ve Artvin'in eşsiz bulut denizlerini keşfedin.</p>
+                        <div class="tour-footer"><span class="price">6.200₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Borçka Karagöl</h3>
+                        <p class="tour-desc">Artvin'in saklı cennetinde huzur dolu bir gün.</p>
+                        <div class="tour-footer"><span class="price">5.800₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Bolu Yedigöller</h3>
+                        <p class="tour-desc">Kayın ve gürgen ağaçları arasında sonbahar masalı.</p>
+                        <div class="tour-footer"><span class="price">3.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Kaçkar Dağları</h3>
+                        <p class="tour-desc">Zirvelere yakın, gerçek bir yayla deneyimi.</p>
+                        <div class="tour-footer"><span class="price">7.400₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Ihlara Vadisi</h3>
+                        <p class="tour-desc">Melendiz Çayı eşliğinde doğa ve tarih yürüyüşü.</p>
+                        <div class="tour-footer"><span class="price">4.200₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="doga">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1510312305653-8ed496efbe75?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Doğa</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Muğla Azmak</h3>
+                        <p class="tour-desc">Akyaka'nın kristal sularında ferahlatıcı bir mola.</p>
+                        <div class="tour-footer"><span class="price">2.900₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Kapadokya</h3>
+                        <p class="tour-desc">Peri bacaları ve sabahın ilk ışıklarında balonlar.</p>
+                        <div class="tour-footer"><span class="price">4.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1605649440419-44fbc9665e0a?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Göbeklitepe</h3>
+                        <p class="tour-desc">Şanlıurfa'da tarihin başladığı noktayı ziyaret edin.</p>
+                        <div class="tour-footer"><span class="price">5.100₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1590732488574-cc7929d20110?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Eski Mardin</h3>
+                        <p class="tour-desc">Mezopotamya'nın altın rengi taş sokakları.</p>
+                        <div class="tour-footer"><span class="price">3.800₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Efes Antik Kent</h3>
+                        <p class="tour-desc">Roma döneminin en görkemli kentine yolculuk.</p>
+                        <div class="tour-footer"><span class="price">3.200₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1548013146-72479768bbaa?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Nemrut Dağı</h3>
+                        <p class="tour-desc">Tanrılar tahtında unutulmaz bir gün doğumu.</p>
+                        <div class="tour-footer"><span class="price">4.750₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="tarih">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Tarih</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>İstanbul Yarımada</h3>
+                        <p class="tour-desc">Üç imparatorluğun başkenti İstanbul'un kalbi.</p>
+                        <div class="tour-footer"><span class="price">2.400₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1551524559-8af4e6624178?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Uludağ Kayak</h3>
+                        <p class="tour-desc">Bursa'nın beyaz zirvelerinde kayak keyfi.</p>
+                        <div class="tour-footer"><span class="price">3.200₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Erciyes Zirve</h3>
+                        <p class="tour-desc">Kayseri'nin sönmüş volkanında modern kayak turu.</p>
+                        <div class="tour-footer"><span class="price">3.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1549129513-415809da45b7?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Palandöken</h3>
+                        <p class="tour-desc">Erzurum'un dondurucu soğuğunda sıcak bir macera.</p>
+                        <div class="tour-footer"><span class="price">4.100₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1482867996988-29ec3aee816d?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Kartalkaya</h3>
+                        <p class="tour-desc">Bolu'nun çam ormanları arasında kış tatili.</p>
+                        <div class="tour-footer"><span class="price">6.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1517059224940-d4af9eec41b7?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Sarıkamış</h3>
+                        <p class="tour-desc">Kristal karın dünyada tek adresi Kars Sarıkamış.</p>
+                        <div class="tour-footer"><span class="price">4.800₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="kis">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1414235077428-33b07447ff0b?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Kış</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Abant Gölü</h3>
+                        <p class="tour-desc">Kar altında donmuş göl manzaralı kış rüyası.</p>
+                        <div class="tour-footer"><span class="price">2.800₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Fethiye Safari</h3>
+                        <p class="tour-desc">Jeep turları ile tozlu yolların tozunu attırın.</p>
+                        <div class="tour-footer"><span class="price">1.200₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1533130061792-64b345e4a833?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Yamaç Paraşütü</h3>
+                        <p class="tour-desc">Ölüdeniz manzarasına karşı Babadağ'dan süzülün.</p>
+                        <div class="tour-footer"><span class="price">5.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Likya Yolu</h3>
+                        <p class="tour-desc">Tarihin ve Akdeniz'in kucağında uzun bir yürüyüş.</p>
+                        <div class="tour-footer"><span class="price">3.900₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Kaz Dağları</h3>
+                        <p class="tour-desc">Oksijen deposu ormanlarda kamp ve trekking.</p>
+                        <div class="tour-footer"><span class="price">2.500₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1521330784802-dc5165464dbb?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Damlataş Mağara</h3>
+                        <p class="tour-desc">Alanya'da yerin altındaki büyüleyici atmosfer.</p>
+                        <div class="tour-footer"><span class="price">850₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+                <div class="swiper-slide tour-card" data-type="macera">
+                    <div class="tour-image"
+                        style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80');">
+                        <span class="tour-badge">Macera</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Kaş Dalış Turu</h3>
+                        <p class="tour-desc">Akdeniz'in derinliklerindeki antik batıkları görün.</p>
+                        <div class="tour-footer"><span class="price">2.100₺</span><button
+                                class="details-btn">İncele</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Tatil Dünyası — Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <script src="turlar.js"></script>
+</body>
+
+</html>

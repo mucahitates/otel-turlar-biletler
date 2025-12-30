@@ -1,3 +1,4 @@
+/* GENEL AYARLAR */
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 
 body {
     background-color: #f0f2f5;
+    overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -55,21 +57,21 @@ body {
     color: #ff5a5f;
 }
 
-/* HERO ALANI */
-.hero {
-    height: 90vh;
+/* HERO ALANLARI (Ana Sayfa, Otel, Tur Ortak) */
+.hero, .main-hero, .tour-hero {
     display: flex;
-     background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
-
-                url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') center/cover;
-
-    
     align-items: center;
     justify-content: center;
     color: white;
     text-align: center;
     padding: 0 20px;
+    background-position: center;
+    background-size: cover;
 }
+
+.hero { height: 90vh; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80'); }
+.main-hero { min-height: 100vh; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1920&q=80'); }
+.tour-hero { height: 60vh; background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1920&q=80'); }
 
 .hero-content h1 {
     font-size: 3.5rem;
@@ -82,7 +84,7 @@ body {
     margin-bottom: 40px;
 }
 
-/* DEV ARAMA MOTORU KONTEYNERI */
+/* ARAMA MOTORU */
 .search-container {
     background: white;
     padding: 25px;
@@ -96,40 +98,12 @@ body {
     align-items: flex-end;
 }
 
-.search-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    flex: 1;
-}
+.search-group { display: flex; flex-direction: column; text-align: left; flex: 1; }
+.flex-2 { flex: 2; }
+.search-group label { font-size: 13px; font-weight: 700; color: #666; margin-bottom: 8px; text-transform: uppercase; }
+.search-group input, .search-group select { padding: 12px 15px; border: 1px solid #ddd; border-radius: 8px; font-size: 15px; width: 100%; outline: none; }
+.search-group input:focus { border-color: #ff5a5f; }
 
-/* Nereye kutusu daha geniş olsun */
-.flex-2 {
-    flex: 2;
-}
-
-.search-group label {
-    font-size: 13px;
-    font-weight: 700;
-    color: #666;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.search-group input, .search-group select {
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 15px;
-    width: 100%;
-    outline: none;
-}
-
-.search-group input:focus {
-    border-color: #ff5a5f;
-}
-
-/* ARAMA BUTONU */
 .search-btn {
     background: #ff5a5f;
     color: white;
@@ -139,38 +113,13 @@ body {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
-    height: 48px; /* Inputlarla aynı hizaya gelmesi için */
+    height: 48px;
     transition: 0.3s;
 }
 
-.search-btn:hover {
-    background: #e34347;
-    transform: translateY(-2px);
-}
+.search-btn:hover { background: #e34347; transform: translateY(-2px); }
 
-/* MOBİL UYUMLULUK */
-@media (max-width: 900px) {
-    .search-container {
-        flex-direction: column;
-        align-items: stretch;
-    }
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-}
-
-/* ANA SAYFA ÖZEL TASARIMI */
-.main-hero {
-    min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 100px 20px;
-}
-
+/* HİZMET KARTLARI (ANA SAYFA) */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -193,30 +142,159 @@ body {
     align-items: center;
 }
 
-.service-card .icon {
-    font-size: 40px;
-    margin-bottom: 15px;
+.service-card:hover { transform: translateY(-15px); background: #fff; box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+
+/* TUR SAYFASI KONTEYNER VE FİLTRELEME */
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
 }
 
-.service-card h3 {
-    font-size: 1.2rem;
+.section-title {
+    font-size: 2rem;
     color: #1d3557;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    border-left: 5px solid #ff5a5f;
+    padding-left: 15px;
 }
 
-.service-card p {
-    font-size: 0.9rem;
-    color: #666;
-    line-height: 1.4;
+.tour-categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
-.service-card:hover {
-    transform: translateY(-15px);
-    background: #fff;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+.category-item {
+    background: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #eee;
+    font-weight: 600;
+    color: #1d3557;
 }
 
-/* Otel kartına özel vurgu */
-.service-card:first-child:hover {
-    border-bottom: 5px solid #ff5a5f;
+.category-item:hover, .category-item.active {
+    background: #ff5a5f;
+    color: white;
+    border-color: #ff5a5f;
+    transform: translateY(-3px);
+}
+
+/* SWIPER VE TUR KARTLARI */
+.swiper {
+    width: 100%;
+    padding: 20px 0 60px !important; /* Alt kısma noktalar için alan */
+}
+
+.swiper-slide {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s ease; /* Filtreleme animasyonu için */
+}
+
+.tour-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 100%;
+    max-width: 350px; /* Kartların çok yayılmasını önler */
+}
+
+.tour-card:hover { transform: translateY(-10px); }
+
+.tour-image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.tour-badge {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #ff5a5f;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tour-info { padding: 20px; }
+.tour-desc { color: #666; font-size: 14px; margin-bottom: 20px; line-height: 1.5; }
+
+.tour-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.tour-footer .price { font-weight: bold; color: #ff5a5f; font-size: 1.1rem; }
+
+.details-btn {
+    background: #1d3557;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.details-btn:hover { background: #457b9d; }
+
+/* SWIPER NAVİGASYON */
+.swiper-button-next, .swiper-button-prev {
+    color: #ff5a5f !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #ff5a5f !important;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 40px;
+    background: #1d3557;
+    color: white;
+    margin-top: 50px;
+}
+
+/* MOBİL UYUMLULUK */
+@media (max-width: 900px) {
+    .search-container { flex-direction: column; align-items: stretch; }
+    .hero-content h1 { font-size: 2.5rem; }
+    .navbar ul { display: none; } /* Mobil menü yapılabilir */
+}
+
+.swiper-slide {
+    display: none; /* Varsayılan olarak gizli (JS açacak) */
+    height: auto;
+    width: 100%; /* Genişliği zorla */
+    transition: opacity 0.3s ease;
+}
+
+/* Aktif kategorideki kartlar için Swiper'ın beklediği display hali */
+.swiper-slide[style*="display: flex"] {
+    display: flex !important;
+}
+
+.tour-image {
+    width: 100%; /* Resmin genişliğini garantiye al */
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Resmin tekrarlanmasını önle */
 }
