@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biletler | Tatil Dünyası</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="tr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bilet Al | Tatil Dünyası</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">TATİL<span>DÜNYASI</span></div>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="otel.html">Oteller</a></li>
+                    <li><a href="turlar.html">Turlar</a></li>
+                    <li><a href="biletler.html">Biletler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class="hero"
+            style="height: 50vh; background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200');">
+            <div class="hero-content">
+                <h1>Yolculuğun Adresini Seç</h1>
+                <p>En uygun seferler tek bir noktada.</p>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="tour-categories">
+                <div class="category-item active" data-transport="ucak">✈️ Uçak</div>
+                <div class="category-item" data-transport="otobus">🚌 Otobüs</div>
+                <div class="category-item" data-transport="gemi">🚢 Gemi</div>
+                <div class="category-item" data-transport="tren">🚆 Tren</div>
+            </section>
+
+            <div class="search-container bilet-search-fixed">
+                <div class="search-group flex-2">
+                    <label>NEREDEN?</label>
+                    <input type="text" placeholder="Şehir veya Terminal" id="fromInput" autocomplete="off">
+                    <div id="fromSuggestions" class="suggestions-box"></div>
+                </div>
+
+                <div class="search-group flex-2">
+                    <label>NEREYE?</label>
+                    <input type="text" placeholder="Varış Noktası" id="toInput" autocomplete="off">
+                    <div id="toSuggestions" class="suggestions-box"></div>
+                </div>
+
+                <div class="search-group flex-1">
+                    <label>TARİH</label>
+                    <input type="date" id="dateInput">
+                </div>
+
+                <button class="search-btn" id="biletBulBtn">BİLET BUL</button>
+            </div>
+
+            <div id="resultsContainer" class="results-list" style="display: none;">
+                <h2 class="section-title" id="resultsTitle">Uygun Seferler</h2>
+                <div id="ticketGrid" class="ticket-grid">
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 Tatil Dünyası — Tüm Hakları Saklıdır.</p>
+        </footer>
+
+        <script src="biletler.js"></script>
+    </body>
+
+    </html>
+</body>
+
+</html>

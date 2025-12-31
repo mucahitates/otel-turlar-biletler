@@ -12,15 +12,15 @@ document.addEventListener('DOMContentLoaded', () => {
             el: ".swiper-pagination", 
             clickable: true 
         },
-        navigation: { 
+       /*navigation: { 
             nextEl: ".swiper-button-next", 
             prevEl: ".swiper-button-prev" 
-        },
+        },*/
         breakpoints: {
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
         },
-    });
+    }); 
 
     const categoryItems = document.querySelectorAll('.category-item');
     const mainTitle = document.getElementById('mainTitle');
