@@ -15,103 +15,121 @@ let allData = [];
 
 // --- 1️⃣ Verileri yükle ---
 async function loadData() {
-  try {
-    const res = await fetch("veriler.json");
-    const json = await res.json();
-    allData = json.seferler || [];
-  } catch (err) {
-    console.error("JSON okunamadı:", err);
-  }
+    try {
+        const res = await fetch("veriler.json");
+        const json = await res.json();
+        allData = json.seferler || [];
+    } catch (err) {
+        console.error("JSON okunamadı:", err);
+    }
 }
 loadData();
 
 // --- 2️⃣ Şehir önerisi üret ---
 function showSuggestions(inputEl, boxEl, field) {
-  const value = inputEl.value.trim().toLowerCase();
-  boxEl.innerHTML = "";
+    const value = inputEl.value.trim().toLowerCase();
+    boxEl.innerHTML = "";
 
-  if (value.length < 3) {
-    boxEl.style.display = "none";
-    return;
-  }
+    if (value.length < 3) {
+        boxEl.style.display = "none";
+        return;
+    }
 
-  const uniqueCities = [
-    ...new Set(allData.map(item => item[field].toLowerCase()))
-  ];
+    const uniqueCities = [
+        ...new Set(allData.map(item => item[field].toLowerCase()))
+    ];
 
-  const filtered = uniqueCities.filter(city =>
-    city.includes(value)
-  );
+    const filtered = uniqueCities.filter(city =>
+        city.includes(value)
+    );
 
-  filtered.forEach(city => {
-    const div = document.createElement("div");
-    div.className = "suggestion-item";
-    div.textContent = city[0].toUpperCase() + city.slice(1);
-    div.onclick = () => {
-      inputEl.value = div.textContent;
-      boxEl.style.display = "none";
-    };
-    boxEl.appendChild(div);
-  });
+    filtered.forEach(city => {
+        const div = document.createElement("div");
+        div.className = "suggestion-item";
+        div.textContent = city[0].toUpperCase() + city.slice(1);
+        div.onclick = () => {
+            inputEl.value = div.textContent;
+            boxEl.style.display = "none";
+        };
+        boxEl.appendChild(div);
+    });
 
-  boxEl.style.display = filtered.length ? "block" : "none";
+    boxEl.style.display = filtered.length ? "block" : "none";
 }
 
 fromInput.addEventListener("input", () =>
-  showSuggestions(fromInput, fromSuggestions, "kalkis")
+    showSuggestions(fromInput, fromSuggestions, "kalkis")
 );
 
 toInput.addEventListener("input", () =>
-  showSuggestions(toInput, toSuggestions, "varis")
+    showSuggestions(toInput, toSuggestions, "varis")
 );
 
 // --- 3️⃣ Kategori seçimi ---
 categories.forEach(cat => {
-  cat.addEventListener("click", () => {
-    categories.forEach(c => c.classList.remove("active"));
-    cat.classList.add("active");
-    selectedTransport = cat.dataset.transport;
-    searchTickets();
-  });
+    cat.addEventListener("click", () => {
+        categories.forEach(c => c.classList.remove("active"));
+        cat.classList.add("active");
+        selectedTransport = cat.dataset.transport;
+        searchTickets();
+    });
 });
 
 // --- 4️⃣ Arama & Filtreleme ---
 document.getElementById("biletBulBtn").addEventListener("click", searchTickets);
 
 function searchTickets() {
-  const from = fromInput.value.trim().toLowerCase();
-  const to = toInput.value.trim().toLowerCase();
-  const date = dateInput.value
-    ? dateInput.value.split("-").reverse().join(".")
-    : "";
+    const from = fromInput.value.trim().toLowerCase();
+    const to = toInput.value.trim().toLowerCase();
+    const date = dateInput.value
+        ? dateInput.value.split("-").reverse().join(".")
+        : "";
 
-  const results = allData.filter(item => {
-    return (
-      item.tip === selectedTransport &&
-      (!from || item.kalkis.toLowerCase() === from) &&
-      (!to || item.varis.toLowerCase() === to) &&
-      (!date || item.tarih === date)
-    );
-  });
+    // ❗ boşsa arama yapma
+    if (from.length < 3 || to.length < 3 || !date) {
+        resultsContainer.style.display = "none";
+        return;
+    }
 
-  renderResults(results);
+    const results = allData.filter(item => {
+        return (
+            item.tip === selectedTransport &&
+            item.kalkis.toLowerCase() === from &&
+            item.varis.toLowerCase() === to &&
+            item.tarih === date
+        );
+    });
+
+    renderResults(results);
 }
+
 
 // --- 5️⃣ Sonuçları ekrana bas ---
 function renderResults(list) {
-  ticketGrid.innerHTML = "";
+    ticketGrid.innerHTML = "";
 
-  if (!list.length) {
-    ticketGrid.innerHTML = `<p class="no-results">Sefer bulunamadı.</p>`;
-    resultsContainer.style.display = "block";
-    return;
-  }
+    
+    if (!list.length) {
+        resultsContainer.style.display = "block";
+        ticketGrid.innerHTML = `
+      <p class="no-results" style="
+          padding: 16px;
+          background:#fff3f3;
+          border:1px solid #ffb3b3;
+          border-radius:10px;
+          text-align:center;
+      ">
+        ❌ Uygun sefer bulunamadı.
+      </p>`;
+        return;
+    }
 
-  list.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "ticket-card";
 
-    card.innerHTML = `
+    list.forEach(item => {
+        const card = document.createElement("div");
+        card.className = "ticket-card";
+
+        card.innerHTML = `
       <h3>${item.kalkis} → ${item.varis}</h3>
       <p><strong>Tarih:</strong> ${item.tarih}</p>
       <p><strong>Saat:</strong> ${item.saat}</p>
@@ -120,8 +138,9 @@ function renderResults(list) {
       <button class="buy-btn">Bilet Al</button>
     `;
 
-    ticketGrid.appendChild(card);
-  });
+        ticketGrid.appendChild(card);
+    });
 
-  resultsContainer.style.display = "block";
+    resultsContainer.style.display = "block";
 }
+

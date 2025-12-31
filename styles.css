@@ -677,3 +677,11 @@ body {
         padding: 30px;
     }
 }
+
+#resultsContainer {
+  margin-top: 40px;
+}
+
+#resultsTitle {
+  margin-top: 15px;
+}
