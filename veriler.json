@@ -1,0 +1,2004 @@
+{
+  "seferler": [
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 1,
+      "tarih": "01.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 2,
+      "tarih": "01.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 3,
+      "tarih": "01.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 4,
+      "tarih": "01.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 5,
+      "tarih": "01.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 6,
+      "tarih": "02.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 7,
+      "tarih": "02.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 8,
+      "tarih": "02.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 9,
+      "tarih": "02.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 10,
+      "tarih": "02.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 11,
+      "tarih": "03.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 12,
+      "tarih": "03.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 13,
+      "tarih": "03.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 14,
+      "tarih": "03.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 15,
+      "tarih": "03.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 16,
+      "tarih": "04.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 17,
+      "tarih": "04.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 18,
+      "tarih": "04.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 19,
+      "tarih": "04.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 20,
+      "tarih": "04.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 21,
+      "tarih": "05.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 22,
+      "tarih": "05.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 23,
+      "tarih": "05.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 24,
+      "tarih": "05.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 25,
+      "tarih": "05.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 26,
+      "tarih": "06.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 27,
+      "tarih": "06.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 28,
+      "tarih": "06.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 29,
+      "tarih": "06.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 30,
+      "tarih": "06.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 31,
+      "tarih": "07.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 32,
+      "tarih": "07.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 33,
+      "tarih": "07.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 34,
+      "tarih": "07.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 35,
+      "tarih": "07.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 36,
+      "tarih": "08.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 37,
+      "tarih": "08.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 38,
+      "tarih": "08.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 39,
+      "tarih": "08.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 40,
+      "tarih": "08.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 41,
+      "tarih": "09.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 42,
+      "tarih": "09.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 43,
+      "tarih": "09.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 44,
+      "tarih": "09.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 45,
+      "tarih": "09.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 46,
+      "tarih": "10.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 47,
+      "tarih": "10.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 48,
+      "tarih": "10.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 49,
+      "tarih": "10.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 50,
+      "tarih": "10.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 51,
+      "tarih": "11.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 52,
+      "tarih": "11.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 53,
+      "tarih": "11.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 54,
+      "tarih": "11.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 55,
+      "tarih": "11.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 56,
+      "tarih": "12.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 57,
+      "tarih": "12.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 58,
+      "tarih": "12.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 59,
+      "tarih": "12.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 60,
+      "tarih": "12.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 61,
+      "tarih": "13.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 62,
+      "tarih": "13.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 63,
+      "tarih": "13.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 64,
+      "tarih": "13.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 65,
+      "tarih": "13.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 66,
+      "tarih": "14.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 67,
+      "tarih": "14.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 68,
+      "tarih": "14.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 69,
+      "tarih": "14.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 70,
+      "tarih": "14.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 71,
+      "tarih": "15.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 72,
+      "tarih": "15.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 73,
+      "tarih": "15.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 74,
+      "tarih": "15.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 75,
+      "tarih": "15.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 76,
+      "tarih": "16.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 77,
+      "tarih": "16.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 78,
+      "tarih": "16.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 79,
+      "tarih": "16.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 80,
+      "tarih": "16.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 81,
+      "tarih": "17.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 82,
+      "tarih": "17.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 83,
+      "tarih": "17.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 84,
+      "tarih": "17.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 85,
+      "tarih": "17.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 86,
+      "tarih": "18.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 87,
+      "tarih": "18.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 88,
+      "tarih": "18.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 89,
+      "tarih": "18.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 90,
+      "tarih": "18.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 91,
+      "tarih": "19.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 92,
+      "tarih": "19.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 93,
+      "tarih": "19.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 94,
+      "tarih": "19.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 95,
+      "tarih": "19.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 96,
+      "tarih": "20.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 97,
+      "tarih": "20.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 98,
+      "tarih": "20.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 99,
+      "tarih": "20.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 100,
+      "tarih": "20.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 101,
+      "tarih": "21.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 102,
+      "tarih": "21.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 103,
+      "tarih": "21.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 104,
+      "tarih": "21.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 105,
+      "tarih": "21.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 106,
+      "tarih": "22.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 107,
+      "tarih": "22.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 108,
+      "tarih": "22.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 109,
+      "tarih": "22.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 110,
+      "tarih": "22.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 111,
+      "tarih": "23.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 112,
+      "tarih": "23.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 113,
+      "tarih": "23.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 114,
+      "tarih": "23.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 115,
+      "tarih": "23.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 116,
+      "tarih": "24.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 117,
+      "tarih": "24.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 118,
+      "tarih": "24.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 119,
+      "tarih": "24.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 120,
+      "tarih": "24.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 121,
+      "tarih": "25.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 122,
+      "tarih": "25.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 123,
+      "tarih": "25.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 124,
+      "tarih": "25.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 125,
+      "tarih": "25.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 126,
+      "tarih": "26.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 127,
+      "tarih": "26.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 128,
+      "tarih": "26.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 129,
+      "tarih": "26.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 130,
+      "tarih": "26.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 131,
+      "tarih": "27.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 132,
+      "tarih": "27.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 133,
+      "tarih": "27.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 134,
+      "tarih": "27.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 135,
+      "tarih": "27.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 136,
+      "tarih": "28.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 137,
+      "tarih": "28.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 138,
+      "tarih": "28.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 139,
+      "tarih": "28.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 140,
+      "tarih": "28.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 141,
+      "tarih": "29.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 142,
+      "tarih": "29.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 143,
+      "tarih": "29.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 144,
+      "tarih": "29.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 145,
+      "tarih": "29.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 146,
+      "tarih": "30.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 147,
+      "tarih": "30.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 148,
+      "tarih": "30.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 149,
+      "tarih": "30.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 150,
+      "tarih": "30.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 151,
+      "tarih": "31.01.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 152,
+      "tarih": "31.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 153,
+      "tarih": "31.01.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 154,
+      "tarih": "31.01.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 155,
+      "tarih": "31.01.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 156,
+      "tarih": "01.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 157,
+      "tarih": "01.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 158,
+      "tarih": "01.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 159,
+      "tarih": "01.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 160,
+      "tarih": "01.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 161,
+      "tarih": "02.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 162,
+      "tarih": "02.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 163,
+      "tarih": "02.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 164,
+      "tarih": "02.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 165,
+      "tarih": "02.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 166,
+      "tarih": "03.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 167,
+      "tarih": "03.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 168,
+      "tarih": "03.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 169,
+      "tarih": "03.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 170,
+      "tarih": "03.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 171,
+      "tarih": "04.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 172,
+      "tarih": "04.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 173,
+      "tarih": "04.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 174,
+      "tarih": "04.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 175,
+      "tarih": "04.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 176,
+      "tarih": "05.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 177,
+      "tarih": "05.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 178,
+      "tarih": "05.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 179,
+      "tarih": "05.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 180,
+      "tarih": "05.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 181,
+      "tarih": "06.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 182,
+      "tarih": "06.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 183,
+      "tarih": "06.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 184,
+      "tarih": "06.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 185,
+      "tarih": "06.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 186,
+      "tarih": "07.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 187,
+      "tarih": "07.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 188,
+      "tarih": "07.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "09:30",
+      "fiyat": "350₺",
+      "firma": "İDO",
+      "id": 189,
+      "tarih": "07.02.2026"
+    },
+    {
+      "tip": "gemi",
+      "kalkis": "İstanbul",
+      "varis": "Yalova",
+      "saat": "11:45",
+      "fiyat": "200₺",
+      "firma": "BUDO",
+      "id": 190,
+      "tarih": "07.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Antalya",
+      "varis": "İstanbul",
+      "saat": "20:00",
+      "fiyat": "1350₺",
+      "firma": "Türk Hava Yolları",
+      "id": 191,
+      "tarih": "08.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Bursa",
+      "saat": "15:00",
+      "fiyat": "300₺",
+      "firma": "Nilüfer Turizm",
+      "id": 192,
+      "tarih": "08.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "08:30",
+      "fiyat": "1250₺",
+      "firma": "Türk Hava Yolları",
+      "id": 193,
+      "tarih": "08.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "İstanbul",
+      "varis": "İzmir",
+      "saat": "10:15",
+      "fiyat": "1100₺",
+      "firma": "Pegasus",
+      "id": 194,
+      "tarih": "08.02.2026"
+    },
+    {
+      "tip": "ucak",
+      "kalkis": "Ankara",
+      "varis": "Antalya",
+      "saat": "14:45",
+      "fiyat": "950₺",
+      "firma": "AnadoluJet",
+      "id": 195,
+      "tarih": "08.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İstanbul",
+      "varis": "Ankara",
+      "saat": "23:59",
+      "fiyat": "500₺",
+      "firma": "Kamil Koç",
+      "id": 196,
+      "tarih": "09.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "Ankara",
+      "varis": "Eskişehir",
+      "saat": "13:00",
+      "fiyat": "250₺",
+      "firma": "Pamukkale",
+      "id": 197,
+      "tarih": "09.02.2026"
+    },
+    {
+      "tip": "otobus",
+      "kalkis": "İzmir",
+      "varis": "İstanbul",
+      "saat": "01:30",
+      "fiyat": "650₺",
+      "firma": "Metro Turizm",
+      "id": 198,
+      "tarih": "09.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Ankara",
+      "varis": "İstanbul",
+      "saat": "07:10",
+      "fiyat": "430₺",
+      "firma": "YHT",
+      "id": 199,
+      "tarih": "09.02.2026"
+    },
+    {
+      "tip": "tren",
+      "kalkis": "Eskişehir",
+      "varis": "Ankara",
+      "saat": "18:20",
+      "fiyat": "210₺",
+      "firma": "YHT",
+      "id": 200,
+      "tarih": "09.02.2026"
+    }
+  ]
+}
